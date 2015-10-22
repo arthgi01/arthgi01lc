@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ "$#" -ne 2 ]; then
+    echo "usage: file1 file2"
+    echo "This program lowercases all uppercase characters in file1 and prints to file2"
+exit
+
+fi
+
+lcFunc <$1 >$2 
+
