@@ -7,8 +7,8 @@ int main(int argc, char* argv[]) {
 
 	while ((c = getchar()) != EOF) {
 		
-		if(lowCase(c))
-		   printf("%c",c);
+	     c = lowCase(c);
+	     printf("%c",c);
 	}
 	
 	return 0;

@@ -2,7 +2,7 @@
 #define lowCase_h
 
 
-int lowCase(char c);
+char lowCase(char c);
 
 
 #endif
