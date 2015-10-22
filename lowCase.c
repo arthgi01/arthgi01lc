@@ -2,8 +2,8 @@
 
 int lowCase(char c) {
      
-     c = (int)c;
- 
+     c = getchar();
+	
      if (c >= 65 && c <= 90){
 
         c = c + 32;   
